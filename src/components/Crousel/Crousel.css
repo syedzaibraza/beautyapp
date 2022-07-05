@@ -1,0 +1,5 @@
+.crousel-image {
+  object-fit: cover;
+  height: 450px;
+  border-radius: 1rem;
+}

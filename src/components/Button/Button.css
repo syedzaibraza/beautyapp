@@ -1,0 +1,22 @@
+.button-dark {
+  background: transparent linear-gradient(180deg, #d14086fc 0%, #bc2f2cd9 100%)
+    0% 0% no-repeat padding-box;
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;
+  border: 0px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+.button-light {
+  background: transparent linear-gradient(180deg, #f88379 0%, #ec6866d9 100%) 0%
+    0% no-repeat padding-box;
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;
+  border: 0px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}

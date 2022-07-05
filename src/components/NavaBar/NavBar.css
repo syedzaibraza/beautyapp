@@ -1,0 +1,10 @@
+.nav {
+  background: transparent linear-gradient(180deg, #d14086fc 0%, #bc2f2cd9 100%)
+    0% 0% no-repeat padding-box;
+  width: 100%;
+  color: white;
+  border: 1px;
+}
+#basic-nav-dropdown {
+  color: white;
+}

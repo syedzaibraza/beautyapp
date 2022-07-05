@@ -1,0 +1,52 @@
+.product_container {
+	border-radius: 15px;
+	background: #e0e0e0;
+	box-shadow: 6px 6px 12px #9d9d9d, -6px -6px 12px #ffffff;
+}
+.images_borders {
+	border-radius: 15px;
+	background: #e0e0e0;
+	box-shadow: 3px 7px 5px #9d9d9d, 0px 0px 1px #5a5a5a;
+}
+.button-dark_product {
+	background: transparent linear-gradient(180deg, #d14086fc 0%, #bc2f2cd9 100%)
+		0% 0% no-repeat padding-box;
+	color: white;
+	font-size: 14px;
+	border-radius: 25px;
+	border: 0px;
+	font-weight: 600;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* padding: 20px; */
+	padding: 20px 60px;
+}
+.button-light {
+	background: transparent linear-gradient(180deg, #f88379 0%, #ec6866d9 100%) 0%
+		0% no-repeat padding-box;
+	color: white;
+	font-size: 14px;
+	border-radius: 25px;
+	border: 0px;
+	font-weight: 600;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* padding: 20px; */
+	/* padding: 0px 0px; */
+}
+.decrement-button {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: transparent linear-gradient(180deg, #f88379 0%, #ec6866d9 100%) 0%
+		0% no-repeat padding-box;
+	color: white;
+	border: 0px;
+	padding: 3px;
+}
+.increment-button {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: transparent linear-gradient(180deg, #f88379 0%, #ec6866d9 100%) 0%
+		0% no-repeat padding-box;
+	color: white;
+	border: 0px;
+	padding: 3px;
+}

@@ -1,0 +1,23 @@
+.my-modal {
+  min-width: 90vw;
+  border: 0;
+}
+.modal-body {
+  position: relative;
+  min-height: 90vh;
+  background: url('../../assests/Modal-bg.jpg');
+  border-radius: 3px;
+  background-size: 100% 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.modal-head {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  color: #d14086fc;
+  z-index: 2;
+  right: 20px;
+}

@@ -1,0 +1,43 @@
+.product-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 1rem;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* On mouse-over, add a deeper shadow */
+.product-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.product-card:hover > .card-buttons {
+  display: flex;
+}
+.card-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  bottom: 10px;
+  position: absolute;
+  display: none;
+  animation-name: button-animate;
+  animation-duration: 0.5s;
+}
+@keyframes button-animate {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}

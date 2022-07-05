@@ -1,0 +1,124 @@
+import AppNavBar from "../../components/NavaBar/Navbar"
+
+const CheckOut = () => {
+    return (
+
+        <div>
+            <AppNavBar />
+            <div class="container">
+                <main className="my-5">
+
+
+                    <div class="row g-5">
+                        <div class="col-md-5 col-lg-4 order-md-last">
+                            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="text-primary">Your cart</span>
+                                <span class="badge bg-primary rounded-pill">3</span>
+                            </h4>
+                            <ul class="list-group mb-3">
+                                <li class="list-group-item d-flex justify-content-between lh-sm">
+                                    <div>
+                                        <h6 class="my-0">Product name</h6>
+                                        <small class="text-muted">Brief description</small>
+                                    </div>
+                                    <span class="text-muted">$12</span>
+                                </li>
+                                 
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Total (USD)</span>
+                                    <strong>$20</strong>
+                                </li>
+                            </ul>
+
+                            <form class="card p-2">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Promo code" />
+                                    <button type="submit" class="btn btn-secondary">Redeem</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-7 col-lg-8">
+                            <h4 class="mb-3">Billing address</h4>
+                            <form class="needs-validation"  >
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <label for="firstName" class="form-label">First name</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="" required />
+                                        <div class="invalid-feedback">
+                                            Valid first name is required /.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <label for="lastName" class="form-label">Last name</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="" required />
+                                        <div class="invalid-feedback">
+                                            Valid last name is required /.
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-12">
+                                        <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                                        <input type="email" class="form-control" id="email" placeholder="you@example.com" />
+                                        <div class="invalid-feedback">
+                                            Please enter a valid email address for shipping updates.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="address" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required />
+                                        <div class="invalid-feedback">
+                                            Please enter your shipping address.
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+                                </div>
+
+
+
+                                <hr class="my-4" />
+
+                                <h4 class="mb-3">Payment</h4>
+
+                                <div class="my-3">
+
+                                    <div class="form-check">
+                                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required />
+                                        <label class="form-check-label" for="debit">Cash On Delivery</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required />
+                                        <label class="form-check-label" for="paypal">PayPal</label>
+                                    </div>
+                                </div>
+
+                              
+                                <hr class="my-4" />
+
+                                <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+
+
+            </div>
+
+
+
+
+        </div>
+    )
+}
+
+export default CheckOut
